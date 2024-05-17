@@ -1,5 +1,5 @@
 title: "Последовательность действий метро"
-participants: ["FRT-terminal", "miniPC","Gateway","Bio-Proxy","FCBBio","Profiler","Handbk",""]
+participants: ["FRT", "mini","way","proxy","bio","profile","handbk","test"]
 edges:
   - from: "FRT-terminal"
     to: "miniPC"
@@ -8,7 +8,7 @@ edges:
   - from: "miniPC"
     to: "Gateway"
     label: "sending best shot photo"
-    type: "->"
+    type: "-"
   - from: "Gateway"
     to: "FRT-terminal"
     label: "response with result"
@@ -139,9 +139,9 @@ edges:
     type: "->"
   - from: "miniPC"
     to: "Gateway"
-    label: "sending best shot photo"
-    type: "->"
+    label: "sending best shot phsssssoto"
+    type: ">"
   - from: "Gateway"
     to: "FRT-terminal"
     label: "response END result"
-    type: "->"
+    type: "-"

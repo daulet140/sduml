@@ -75,7 +75,6 @@ func DiagramFromYaml(file string) (*Diagram, error) {
 			err = d.AddDirectionalEdge(edge.From, edge.To, edge.Label)
 		case "-":
 			err = d.AddUndirectionalEdge(edge.From, edge.To, edge.Label)
-
 		default:
 			err = errors.New("edge type not valid")
 		}
